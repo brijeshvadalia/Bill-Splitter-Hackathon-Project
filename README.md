@@ -9,7 +9,7 @@
 ![BADGE](https://img.shields.io/badge/HACKATHON-PROJECT-lightgrey)
 ![BADGE](https://img.shields.io/badge/LCO--INEURON-HITESH%20CHOUDHARY-lightgrey)
 ![BADGE](https://img.shields.io/badge/INEURON-FULL--STACK--JAVASCRIPT--WEBDEVELOPMENT-lightgrey)
-![BADGE](https://img.shields.io/badge/HTML-CSS-lightgrey)
+
 ># `SPLIT-BILL`
 >`Split bills with your friends easily and efficiently. Register today with your friends`.
 >![BADGE](https://img.shields.io/badge/MADE%20WITH%20FUN%20BY-BRIJESH%20VADALIA-blue)
