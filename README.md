@@ -13,7 +13,7 @@
 ># `SPLIT-BILL`
 >`Split bills with your friends easily and efficiently. Register today with your friends`.
 >![BADGE](https://img.shields.io/badge/MADE%20WITH%20FUN%20BY-BRIJESH%20VADALIA-blue)
-># `Hackathon Project Powered By `[Find Coder](https://www.findcoder.io/ "Find Coder")
+># `Hackathon Project Powered By ` : [Find Coder](https://www.findcoder.io/ "Find Coder")
 
 ![Gif](https://cdn.dribbble.com/users/376111/screenshots/6186726/hackathon2midloop2.gif)
 
