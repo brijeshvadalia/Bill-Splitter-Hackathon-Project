@@ -44,9 +44,10 @@
 >- If yarn start is not working than run `react-scripts start`.
 
 
-
+># [LIVE [HOSTED] PROJECT LINK](https://bill-splitter-hackathon-project-brijesh8128.vercel.app/ "Bill--Splitter--Hackathon--Project--Vercel")
 # HERE IS THE PREVIEW HOW THIS PROJECT LOOKS😍
-<!-- ># [LIVE [HOSTED] PROJECT LINK](https://ineuron-homepage-brijesh8128.netlify.app/ "Project-1-Hackathon--Netlify") -->
+
+
 >![Screenshot](./screenshots/screenshot-1.png)
 >![Screenshot](./screenshots/screenshot-2.png)
 >![Screenshot](./screenshots/screenshot-3.png)
