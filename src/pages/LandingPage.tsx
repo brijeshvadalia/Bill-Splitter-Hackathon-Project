@@ -60,7 +60,7 @@ export default function LandingPage() {
                   Split expenses with your buddies.
                   </span>
                   <span className="block text-blue-600">
-                    without any hassle
+                      
                   </span>
                 </h1>
                 <p className="mx-auto mt-6 max-w-lg text-center text-xl text-gray-500 sm:max-w-3xl">

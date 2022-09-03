@@ -33,7 +33,7 @@
 >![BADGE](https://img.shields.io/badge/GIT-HUB-lightgrey)
 >![BADGE](https://img.shields.io/badge/VS-CODE-blue)
 >![BADGE](https://img.shields.io/badge/GIT-GIT-orange)
->![BADGE](https://img.shields.io/badge/NETLIFY-NETLIFY-blue)
+>![BADGE](https://img.shields.io/badge/VERCEL-VERCEL-blue)
 >![BADGE](https://img.shields.io/badge/TAILWIND-CSS-blue)
 
 # Reminder 😮
