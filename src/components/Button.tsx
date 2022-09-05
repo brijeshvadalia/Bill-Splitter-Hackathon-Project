@@ -32,7 +32,7 @@ type StyleType = {
 
 const ButtonTypeStyle: StyleType = {
   primary:
-    "cursor-pointer px-4 py-2 md:px-6 rounded font-medium active:ring-2 ring-brand-200 text-white bg-brand-600 hover:bg-brand-700",
+    "cursor-pointer px-4 py-2 md:px-6 rounded font-medium active:ring-2 ring-brand-200 text-white bg-blue-800 hover:bg-brand-700",
   secondary:
     "cursor-pointer  px-4 py-2 md:px-6 border rounded font-medium active:ring-2 border-zinc-300 text-zinc-900 hover:bg-zinc-100 ring-zinc-100",
   ghost:

@@ -3,7 +3,7 @@ import Joi from "joi";
 import { Link } from "react-router-dom";
 import Button from "../components/Button";
 import FormInput from "../components/FormInput";
-import Logo from "../components/Logo";
+
 import { authService } from "services";
 import Alert from "components/Alert";
 import { getCurrentUser } from "services/authService";
@@ -93,11 +93,11 @@ const SignIn = () => {
     document.title = "SplitBill | SignIn";
   }, []);
   return (
-    <div className="h-full w-full flex justify-center items-center">
+    <div className="h-full w-full flex justify-center items-center bg-blue-100">
       <div className="flex flex-col justify-center items-center">
-        <Logo />
+     
         <div className="mt-8">
-          <h1 className="font-bold text-3xl">Sign in to your account</h1>
+          <h1 className="font-bold text-3xl text-blue-800">Sign in to your account</h1>
 
           <div className="mt-8">
             {apiError && <Alert variant="error" message={apiError} />}

@@ -13,7 +13,7 @@ const Loading = ({
         <div className="flex h-full w-full flex-col items-center justify-center">
           <img src={LoadingGIF} alt="loading" className="h-64" />
           <p className="mt-8 animate-pulse text-center align-middle text-xl font-semibold">
-            Connecting to Server...
+            Redirecting Just Chill...
           </p>
         </div>
       ) : (

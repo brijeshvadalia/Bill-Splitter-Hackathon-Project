@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Joi from "joi";
 import Button from "../components/Button";
 import FormInput from "../components/FormInput";
-import Logo from "../components/Logo";
+
 import { authService, userService } from "services";
 
 type SignUpDataType = {
@@ -94,11 +94,11 @@ const SignUp = () => {
     document.title = "SplitBill | SignUp";
   }, []);
   return (
-    <div className="h-full w-full flex justify-center items-center">
+    <div className="h-full w-full flex justify-center items-center bg-blue-100">
       <div className="flex flex-col justify-center items-center">
-        <Logo />
+      
         <div className="mt-8">
-          <h1 className="font-bold text-3xl">Create your account</h1>
+          <h1 className="font-bold text-3xl text-blue-800">Create your account</h1>
 
           <div className="mt-8">
             <FormInput

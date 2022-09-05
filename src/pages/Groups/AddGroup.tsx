@@ -113,7 +113,7 @@ const AddGroup = () => {
         />
         <div className="mt-2 md:flex md:items-center md:justify-between">
           <div className="min-w-0 flex-1">
-            <h2 className="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl">
+            <h2 className="text-2xl font-bold leading-7 text-blue-800 sm:truncate sm:text-3xl">
               Add Group
             </h2>
           </div>

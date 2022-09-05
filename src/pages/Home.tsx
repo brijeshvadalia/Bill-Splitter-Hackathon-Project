@@ -12,7 +12,7 @@ const Home = () => {
   const { groupList } = useContext(GroupContext);
 
   return (
-    <div className="my-10 flex-1 px-4 sm:px-6 lg:mx-auto lg:px-8 xl:max-w-6xl">
+    <div className="my-10 flex-1 px-4 sm:px-6 lg:mx-auto lg:px-8 xl:max-w-6xl ">
       {/* Group Overview */}
       <div className="my-12">
         <div className="flex justify-between border-b pb-6">

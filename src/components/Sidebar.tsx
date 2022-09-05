@@ -6,7 +6,7 @@ import {
   UserGroupIcon,
   GlobeAltIcon,
 } from "@heroicons/react/outline";
-import Logo from "components/Logo";
+
 import LinkedIn from "../images/Linkedin.png";
 import Github from "../images/GitHub_Logo.png";
 import Hashnode from "../images/hashnode.png";
@@ -89,7 +89,10 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: any) => {
                 </div>
               </Transition.Child>
               <div className="flex flex-shrink-0 items-center px-4">
-                <Logo />
+              <div className="flex justify-start lg:w-0 lg:flex-1 text-blue-800 text-2xl font-bold">
+            <h1>Bill Splitter</h1>
+            </div>
+
               </div>
               <nav
                 className="mt-20 flex-1 flex-shrink-0 divide-y divide-gray-300 overflow-y-auto"
@@ -102,7 +105,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: any) => {
                       to={item.href}
                       className={classNames(
                         item.current
-                          ? "bg-blue-600 text-white"
+                          ? "bg-blue-800 text-white"
                           : " text-gray-800 hover:bg-gray-200",
                         "group flex items-center rounded-md px-2 py-2 text-base font-medium"
                       )}
@@ -121,43 +124,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: any) => {
                   ))}
                 </div>
               </nav>
-              <div className="mx-3 shadow rounded-md border-2 p-3">
-                <p className="mb-4 border-b pb-2 text-center text-lg font-semibold uppercase text-gray-600">
-                  Follow me on
-                </p>
-                <div className="flex flex-col items-center justify-center">
-                  <a
-                    href="https://www.linkedin.com/in/brijesh8128/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={LinkedIn} alt="linkedin" className="h-8 pl-3" />
-                  </a>
-                  <a
-                    href="https://github.com/brijeshvadalia"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={Github} alt="github" className="mt-2 w-28" />
-                  </a>
-                  <a
-                    href="https://brijeshvadaliya8128.hashnode.dev/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={Hashnode} alt="github" className="mt-2 w-32" />
-                  </a>
-                  <a
-                    href="https://brijesh8128-portfolio.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mt-3 flex items-center justify-center text-gray-800"
-                  >
-                    <GlobeAltIcon className="mr-1 h-6 w-6 text-blue-600" />
-                    <p className="text-lg font-semibold">Personal Website</p>
-                  </a>
-                </div>
-              </div>
+              
             </div>
           </Transition.Child>
           <div className="w-14 flex-shrink-0" aria-hidden="true"></div>
@@ -169,7 +136,10 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: any) => {
         {/* Sidebar component, swap this element with another sidebar if you like */}
         <div className="flex flex-grow flex-col overflow-y-auto border-r border-gray-300 bg-white pt-5 pb-4">
           <div className="flex flex-shrink-0 items-center px-4">
-            <Logo />
+          <div className="flex justify-start lg:w-0 lg:flex-1 text-blue-800 text-2xl font-bold">
+            <h1>Bill Splitter</h1>
+            </div>
+
           </div>
           <nav
             className="mt-20 flex flex-1 flex-col divide-y divide-blue-800 overflow-y-auto"
@@ -182,7 +152,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: any) => {
                   to={item.href}
                   className={classNames(
                     item.current
-                      ? "bg-blue-600 text-white"
+                      ? "bg-blue-800 text-white"
                       : "text-gray-800 hover:bg-gray-200",
                     "group flex items-center rounded-md px-2 py-2 text-sm font-medium leading-6"
                   )}
@@ -201,43 +171,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: any) => {
               ))}
             </div>
           </nav>
-          <div className="mx-3 shadow rounded-md border-2 p-3 ">
-            <p className="mb-4 border-b pb-2 text-center text-lg font-semibold uppercase text-gray-600">
-              Follow me on
-            </p>
-            <div className="flex flex-col items-center justify-center">
-              <a
-                href="https://www.linkedin.com/in/brijesh8128/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={LinkedIn} alt="linkedin" className="h-8 pl-3 " />
-              </a>
-              <a
-                href="https://github.com/brijeshvadalia"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={Github} alt="github" className="mt-2 w-28" />
-              </a>
-              <a
-                href="https://brijeshvadaliya8128.hashnode.dev/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={Hashnode} alt="github" className="mt-2 w-32" />
-              </a>
-              <a
-                href="https://brijesh8128-portfolio.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="mt-3 flex items-center justify-center text-gray-800"
-              >
-                <GlobeAltIcon className="mr-1 h-6 w-6 text-blue-600" />
-                <p className="text-lg font-semibold">Personal Website</p>
-              </a>
-            </div>
-          </div>
+          
         </div>
       </div>
     </>

@@ -55,11 +55,6 @@
 >![Screenshot](./screenshots/screenshot-5.png)
 >![Screenshot](./screenshots/screenshot-6.png)
 >![Screenshot](./screenshots/screenshot-7.png)
->![Screenshot](./screenshots/screenshot-8.png)
->![Screenshot](./screenshots/screenshot-9.png)
->![Screenshot](./screenshots/screenshot-10.png)
->![Screenshot](./screenshots/screenshot-11.png)
->![Screenshot](./screenshots/screenshot-12.png)
 
 
 
